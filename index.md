@@ -1,123 +1,85 @@
 ---
 layout: default
+title: Avula Maheswar Reddy's Cybersecurity Portfolio
+description: Everything is binary at the end, if it is binary then it is not the end.
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+<link rel="stylesheet" type="text/css" href="{{ '/assets/css/style.css' | relative_url }}">
 
-[Link to another page](./another-page.html).
+# Avula Maheswar Reddy
 
-There should be whitespace between paragraphs.
+![Profile Picture](path/to/your/profile-pic.jpg){: .circle}
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+<div class="intro">
+  <h2>Cybersecurity Enthusiast</h2>
+  <p>Continuous learner aiming to safeguard individuals and organizations through cutting-edge cybersecurity practices.</p>
+</div>
 
-# Header 1
+<nav>
+  <a href="#projects">Projects</a> |
+  <a href="#skills">Skills</a> |
+  <a href="#contact">Contact</a> |
+  <a href="/cv.pdf" download>Download CV</a>
+</nav>
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+...
+## About Me
 
-## Header 2
+I am Avula Maheswar Reddy, a passionate cybersecurity enthusiast with experience in malware detection, reverse engineering, and participating in various cyber challenges. I strive to enhance my skills in safeguarding digital spaces.
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+---
 
-### Header 3
+## Projects {#projects}
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+<div class="projects-grid">
+  <div class="project">
+    <img src="path/to/project1-image.jpg" alt="Project 1 Image">
+    <h3>Project 1: Malware Detection</h3>
+    <p>Detection of malware using machine learning based on API calls.</p>
+  </div>
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+  <div class="project">
+    <img src="path/to/project2-image.jpg" alt="Project 2 Image">
+    <h3>Project 2: Zeus Trojan Analyzer</h3>
+    <p>Analyzed Zeus Trojan to understand its behavior and mitigate its impact.</p>
+  </div>
 
-#### Header 4
+  <div class="project">
+    <img src="path/to/project3-image.jpg" alt="Project 3 Image">
+    <h3>Project 3: Deep Packet Inspection</h3>
+    <p>Developed a basic DPI tool for educational purposes and small-scale network monitoring.</p>
+  </div>
+</div>
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+---
 
-##### Header 5
+## Skills {#skills}
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+### Cybersecurity Skills
+- Malware Analysis
+- Reverse Engineering
+- Incident Response
 
-###### Header 6
+### Tools and Technologies
+- Wireshark
+- Metasploit
+- IDA Pro
+- SIEM Platforms
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+### Soft Skills
+- Problem-solving
+- Communication
+- Teamwork
 
-### There's a horizontal rule below this.
+### Certifications
+- ISC2 Certified in Cybersecurity
+- SOC Analyst (LetsDefend)
+- Google Cybersecurity Professional
 
-* * *
+---
 
-### Here is an unordered list:
+## Contact {#contact}
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+- **Email**: avulamaheswar@example.com
+- **LinkedIn**: [linkedin.com/in/maheswar](https://linkedin.com/in/maheswar)
+- **GitHub**: [github.com/maheavula](https://github.com/maheavula)
