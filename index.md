@@ -3,54 +3,80 @@ layout: default
 title: Welcome
 ---
 
-# Welcome to My Professional Portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(45deg, #24292e, #0366d6);
+      background-size: 400% 400%;
+      animation: gradientAnimation 15s ease infinite;
+      color: white;
+      overflow: hidden;
+    }
 
-## About Me
+    @keyframes gradientAnimation {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
 
-I am a cybersecurity enthusiast with hands-on experience in security analysis, reverse engineering, and vulnerability management. My portfolio includes various projects in malware detection and network security.
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      padding: 20px;
+    }
 
-### Professional Website
+    .glass {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      color: white;
+      max-width: 600px;
+      width: 100%;
+    }
 
-<div style="text-align: center; padding: 20px; position: relative;">
-  <a href="https://maheavula.netlify.app/" 
-     class="btn" 
-     style="color: white; 
-            padding: 15px 30px; 
-            text-decoration: none; 
-            border-radius: 50px; 
-            font-size: 18px; 
-            font-weight: bold; 
-            background: linear-gradient(90deg, #24292e, #0366d6);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
-            position: relative; 
-            overflow: hidden; 
-            transition: all 0.5s ease;">
-    Visit My Professional Website
-  </a>
+    .btn {
+      display: inline-block;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 50px;
+      font-size: 18px;
+      font-weight: bold;
+      background: linear-gradient(90deg, #24292e, #0366d6);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      transition: all 0.3s ease;
+    }
 
-  <!-- Background glow effect -->
-  <div style="position: absolute; 
-              top: -100px; 
-              left: -100px; 
-              width: 300px; 
-              height: 300px; 
-              background: rgba(3, 102, 214, 0.5); 
-              filter: blur(100px); 
-              z-index: -1;
-              transition: all 0.7s ease;"></div>
-</div>
-
-<style>
-  .btn:hover {
-    background: linear-gradient(90deg, #0366d6, #24292e);
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
-  }
-
-  /* Hover animation effect on the glow */
-  .btn:hover + div {
-    top: -120px;
-    left: -120px;
-    filter: blur(120px);
-  }
-</style>
+    .btn:hover {
+      background: linear-gradient(90deg, #0366d6, #24292e);
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="glass">
+      <h1>Welcome to My Professional Portfolio</h1>
+      <p>I am a cybersecurity enthusiast with hands-on experience in security analysis, reverse engineering, and vulnerability management. My portfolio includes various projects in malware detection and network security.</p>
+      <p>
+        <a href="https://maheavula.netlify.app/" class="btn">
+          Visit My Professional Website
+        </a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
