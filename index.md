@@ -49,30 +49,25 @@ I am a cybersecurity enthusiast with hands-on experience in security analysis, r
   .btn::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
     width: 300%;
     height: 300%;
-    background: rgba(3, 102, 214, 0.3);
+    background: rgba(3, 102, 214, 0.5);
+    border-radius: 50%;
     transition: all 0.5s ease;
     z-index: 0;
-    border-radius: 50%;
-    transform: scale(0);
+    transform: translate(-50%, -50%) scale(0);
   }
 
   .btn:hover::before {
-    transform: scale(1);
+    transform: translate(-50%, -50%) scale(1.5);
   }
 
   .btn:hover {
     background: linear-gradient(90deg, #0366d6, #24292e);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
     transform: translateY(-5px);
-  }
-
-  .btn {
-    position: relative;
-    overflow: hidden;
   }
 
   .btn span {
