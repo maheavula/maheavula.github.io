@@ -1,78 +1,82 @@
 ---
 layout: default
-title: Resume
+title: Welcome
 ---
 
+# Welcome to My Professional Portfolio
+
+## About Me
+
+I am a cybersecurity enthusiast with hands-on experience in security analysis, reverse engineering, and vulnerability management. My portfolio includes various projects in malware detection and network security.
+
+### Professional Website
+
+<div style="text-align: center; padding: 20px;">
+  <a href="https://maheavula.netlify.app/" 
+     class="btn" 
+     style="display: inline-block; 
+            color: white; 
+            padding: 15px 30px; 
+            text-decoration: none; 
+            border-radius: 50px; 
+            font-size: 18px; 
+            font-weight: bold; 
+            background: linear-gradient(90deg, #24292e, #0366d6);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+            position: relative; 
+            overflow: hidden; 
+            transition: all 0.4s ease;">
+    Visit My Professional Website
+  </a>
+</div>
+
 <style>
-  body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #007bff, #00d2d3);
-    color: #fff;
-    text-align: center;
-    overflow: hidden;
-  }
-
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    padding: 20px;
-  }
-
-  .card {
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    max-width: 600px;
-    margin: 20px;
-    color: #fff;
-  }
-
-  h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-  }
-
-  p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-  }
-
   .btn {
     display: inline-block;
-    color: #fff;
+    color: white;
     padding: 15px 30px;
     text-decoration: none;
     border-radius: 50px;
     font-size: 18px;
     font-weight: bold;
-    background: linear-gradient(90deg, #0056b3, #004d99);
+    background: linear-gradient(90deg, #24292e, #0366d6);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    transition: all 0.3s ease;
-    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease;
+  }
+
+  .btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300%;
+    height: 300%;
+    background: rgba(3, 102, 214, 0.3);
+    transition: all 0.5s ease;
+    z-index: 0;
+    border-radius: 50%;
+    transform: scale(0);
+  }
+
+  .btn:hover::before {
+    transform: scale(1);
   }
 
   .btn:hover {
-    background: linear-gradient(90deg, #004d99, #0056b3);
-    transform: translateY(-5px);
+    background: linear-gradient(90deg, #0366d6, #24292e);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    transform: translateY(-5px);
   }
 
-  .btn:active {
-    transform: translateY(0);
+  .btn {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .btn span {
+    position: relative;
+    z-index: 1;
   }
 </style>
-
-<div class="container">
-  <div class="card">
-    <h1>Welcome to My Resume</h1>
-    <p>Explore my professional journey, projects, and contact information.</p>
-    <a href="https://maheavula.netlify.app/" class="btn">Visit My Portfolio</a>
-    <a href="https://maheavula.github.io/resume" class="btn">Back to Resume</a>
-  </div>
-</div>
