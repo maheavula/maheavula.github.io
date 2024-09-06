@@ -12,7 +12,7 @@ I am a cybersecurity enthusiast with hands-on experience in security analysis, r
 ### Professional Website
 
 <div style="text-align: center; padding: 20px;">
-  <a href="https://maheavula.netlify.app/" 
+  <a href="https://maheavula.github.io/my-professional-website/" 
      class="btn" 
      style="display: inline-block; 
             color: white; 
