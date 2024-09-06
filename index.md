@@ -1,7 +1,3 @@
----
-layout: default
-title: Resume
----
 
 <style>
   body {
